@@ -1,0 +1,100 @@
+:root {
+  --main-bg-color: #19191c;
+  --main-text-color: #fff;
+
+  --link-color: #0432ff;
+
+  --font-title: sans-serif;
+  --font-paragraph: sans-serif;
+
+  --content-max-width: 800px;
+}
+
+*, *:before, *:after {
+  box-sizing: border-box;
+}
+
+img {
+  max-width: 100%;
+  display: block;
+}
+
+html {
+  font-family: var(--font-paragraph);
+  font-size: 16px;
+}
+
+body {
+  line-height: 1.4;
+  margin: 0 auto;
+  color: var(--main-text-color);
+  background-color: var(--main-bg-color);
+  width: 100%;
+  min-width: 250px;
+}
+
+a, a:hover, a:visited, a:active {
+  color: var(--link-color);
+  text-decoration: none;
+}
+
+h1, h2, h3 {
+  font-family: var(--font-title);
+  margin-top: 2rem;
+}
+
+main {
+  margin: 0 auto;
+  padding: 1rem;
+  max-width: var(--content-max-width);
+}
+
+.input-div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 1rem;
+}
+
+.input-label {
+  cursor: pointer;
+  background-color: var(--main-text-color);
+  color: var(--main-bg-color);
+  padding: 2rem;
+  margin: 2rem 0;
+  font-size: 2rem;
+  font-weight: bold;
+  border-radius: 10px;
+  line-height: 1.2;
+}
+
+.null {
+  display: none;
+}
+
+/* #file-content-wrapper {
+  position: relative;
+  max-width: 500px;
+  margin: 0 auto;
+}
+
+#file-content-wrapper img {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  width: 100%;
+  height: auto;
+}
+
+#file-content-wrapper > div {
+  background: red;
+  z-index: 999;
+  position: absolute;
+  top: 113px;
+  left: 27px;
+  right: 31px;
+  bottom: 178px;
+  height: 784px;
+} */

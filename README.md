@@ -1,2 +1,1 @@
-# whatsapp-analyser
-WhatsApp Analyser
+# whatsapp-analyster
